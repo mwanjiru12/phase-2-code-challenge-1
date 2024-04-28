@@ -1,38 +1,119 @@
-.App {
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgb(62, 3, 98);
+  text-align: center;
+  padding: 20px;
+  font-size: x-large;
+  color: white;
+  font-weight: 800;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: black;
+}
+
+#root {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root td, #root th {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 8%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#root tr:nth-child(even){background-color: #f2f2f2;}
+
+#root tr:hover {background-color: #ddd;}
+
+#rooot th {
+  padding-top: 18px;
+  padding-bottom: 18px;
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-bar form {
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 5px 10px 5px 0;
+}
+
+.search-bar input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 85%;
+  border-radius: 10px;
+}
+
+#search-bar button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.search-bar button:hover {
+  background-color: royalblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.search-bar code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#form input{
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 20%;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#form button {
+  padding: 10px 20px;
+  background-color: grey;
+  border: 1px solid #ddd;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  margin: 10px;
+  
+}
+
+#form button:hover {
+  background-color:black;
+  color: white;
 }
