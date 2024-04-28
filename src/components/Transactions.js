@@ -18,10 +18,9 @@ function Transactions() {
                     <th>DESCRIPTION</th>
                     <th>AMOUNT</th>
                 </tr>
-            {/* trs */}
-                {transactions.map((transaction,index)=>{
+                {/* trs */}
+                {transactions.map(transaction=>{
                     return <TransactionItem 
-                    index={index}
                     date={transaction.date}
                     category={transaction.category}
                     description={transaction.description}
