@@ -1,4 +1,5 @@
 {
+  "homepage": "https://mwanjiru12.github.io/phase-2-code-challenge-1/",
   "name": "bank-of-flatiron",
   "version": "0.1.0",
   "private": true,
@@ -45,6 +46,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  },
-  "homepage": "http://gitname.github.io/react-gh-pages"
+  }
 }
