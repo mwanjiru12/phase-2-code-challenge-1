@@ -20,7 +20,7 @@
     "web-vitals": "^3.5.2"
   },
   "scripts": {
-    "start": "json-server --watch db.json -p 6001 && PORT=6002 react-scripts start && fg",
+    "start": "json-server --watch db.json -p 6001 & PORT=8000 react-scripts start && fg",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
